@@ -1,0 +1,329 @@
+{
+ "paper_table1": {
+  "1e4-old": {
+   "AUC": 0.943,
+   "FPR": 0.1605
+  },
+  "Tsec-old": {
+   "AUC": 0.9417,
+   "FPR": 0.166
+  },
+  "1e4+Tsec": {
+   "AUC": 0.9442,
+   "FPR": 0.1595
+  },
+  "Tsec+Tsec": {
+   "AUC": 0.9502,
+   "FPR": 0.1431
+  },
+  "source": "Thadhani et al. 2025 (SPOCK 2.0), Table 1"
+ },
+ "teacher_oursample": {
+  "Tsec+Tsec": {
+   "AUC": 0.9471,
+   "AUC_ci95": [
+    0.9276,
+    0.9634
+   ],
+   "FPR": 0.0903,
+   "FPR_ci95": [
+    0.0621,
+    0.1216
+   ]
+  },
+  "n": 488,
+  "note": "real ICs + real 1e9 labels, Sec-2 exclusions, seed 8"
+ },
+ "glass_holdout147": {
+  "1e4-old": {
+   "AUC": 0.8563,
+   "AUC_ci95": [
+    0.7947,
+    0.9091
+   ],
+   "FPR": 0.1111,
+   "FPR_ci95": [
+    0.0515,
+    0.1889
+   ]
+  },
+  "Tsec-old": {
+   "AUC": 0.8756,
+   "AUC_ci95": [
+    0.8141,
+    0.9266
+   ],
+   "FPR": 0.1,
+   "FPR_ci95": [
+    0.0425,
+    0.1667
+   ]
+  },
+  "1e4+Tsec": {
+   "AUC": 0.8384,
+   "AUC_ci95": [
+    0.7708,
+    0.8951
+   ],
+   "FPR": 0.1444,
+   "FPR_ci95": [
+    0.0778,
+    0.2223
+   ]
+  },
+  "Tsec+Tsec": {
+   "AUC": 0.8998,
+   "AUC_ci95": [
+    0.8399,
+    0.9433
+   ],
+   "FPR": 0.0889,
+   "FPR_ci95": [
+    0.0341,
+    0.1506
+   ]
+  },
+  "n_holdout": 147,
+  "seed": 8,
+  "megno_seed": 0,
+  "torch_seed": 0,
+  "source": "scripts/benchmark_table1.py (full run, 400 resonant + 200 random)",
+  "note": "train-split normalization, fixed MEGNO and torch seeds; supersedes legacy run"
+ },
+ "glass_broad_holdout568": {
+  "Tsec+Tsec": {
+   "AUC": 0.933
+  },
+  "note": "1891-train run (v34); size drives gap 0.896->0.933"
+ },
+ "distill_fidelity": {
+  "n": 1818,
+  "agree_holdout": 0.9157509157509157,
+  "agree_holdout_ci95": [
+   0.8827838827838828,
+   0.945054945054945
+  ],
+  "auc_teacher_holdout": 0.9750468603561387,
+  "auc_teacher_holdout_ci95": [
+   0.9586275098902638,
+   0.9879921021459404
+  ],
+  "auc_truth_holdout": 0.9334121821407452,
+  "auc_truth_holdout_ci95": [
+   0.9035152168234064,
+   0.9589392560615141
+  ],
+  "acc_truth_holdout": 0.8571428571428571,
+  "acc_truth_holdout_ci95": [
+   0.8131868131868132,
+   0.8974358974358975
+  ],
+  "seed_mean": {
+   "auc_truth": 0.9161344830186389,
+   "auc_truth_std": 0.010489010012954741,
+   "acc_truth": 0.8358974358974358,
+   "acc_truth_std": 0.019712269666042045
+  },
+  "source": "proofs/distill.json (scripts/train_glass.py)"
+ },
+ "stack_nam_rules": {
+  "AUC": 0.9434,
+  "holdout": 0.9379,
+  "teacher": 0.9474
+ },
+ "faceoff_jupiter40": {
+  "ours": 0.9,
+  "spock": 0.05,
+  "caveat": "horizon 1e9 vs 2k + mass off-dist; not a KO claim"
+ },
+ "test100_csv": {
+  "teacher": 0.9856,
+  "glass_moe": 0.9403,
+  "megno": 0.7697
+ },
+ "reality": {
+  "trappist": "8/9 agree (phase draws)",
+  "jpl_100y": "WHFast exact, glass loses (logged fail)",
+  "kepler36": "both defer to Hill"
+ },
+ "scheduler_jupiter40": {
+  "acc": 0.925,
+  "acc_ci95": [
+   0.825,
+   1.0
+  ],
+  "n": 40,
+  "zoom_frac": 0.45,
+  "speedup_cost": 2.0942408376963355,
+  "by_kind": {
+   "tight": {
+    "n": 20,
+    "acc": 0.95,
+    "truth_stable": 1,
+    "zoom_frac": 0.05
+   },
+   "wide": {
+    "n": 20,
+    "acc": 0.9,
+    "truth_stable": 19,
+    "zoom_frac": 0.85
+   }
+  },
+  "source": "proofs/scheduler.json (scripts/benchmark_scheduler.py, seed 5, fixed MEGNO seed)",
+  "note": "Replaces the old 1.00/2.7x claim, which did not reproduce."
+ },
+ "scheduler_jupiter40_seeds": {
+  "runs": [
+   {
+    "seed": 5,
+    "acc": 0.925,
+    "ci": [
+     0.825,
+     1.0
+    ],
+    "zoom": 0.45,
+    "speedup": 2.0942408376963355,
+    "tight": 0.95,
+    "wide": 0.9
+   },
+   {
+    "seed": 6,
+    "acc": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "zoom": 0.5,
+    "speedup": 1.9047619047619047,
+    "tight": 1.0,
+    "wide": 1.0
+   },
+   {
+    "seed": 7,
+    "acc": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "zoom": 0.55,
+    "speedup": 1.7467248908296944,
+    "tight": 1.0,
+    "wide": 1.0
+   },
+   {
+    "seed": 8,
+    "acc": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "zoom": 0.5,
+    "speedup": 1.9047619047619047,
+    "tight": 1.0,
+    "wide": 1.0
+   },
+   {
+    "seed": 9,
+    "acc": 0.975,
+    "ci": [
+     0.925,
+     1.0
+    ],
+    "zoom": 0.525,
+    "speedup": 1.8223234624145783,
+    "tight": 1.0,
+    "wide": 0.95
+   }
+  ],
+  "acc_mean": 0.9799999999999999,
+  "acc_std": 0.02915475947422649,
+  "speedup_mean": 1.8945626000928837,
+  "speedup_std": 0.11589126929719601,
+  "zoom_mean": 0.505,
+  "zoom_std": 0.03316624790355401,
+  "source": "proofs/scheduler_seeds.json",
+  "note": "seeds 5-9, fixed MEGNO seed, gates lo=0.01 hi=0.70"
+ },
+ "glass_holdout147_legacy": {
+  "1e4-old": {
+   "AUC": 0.8655,
+   "FPR": 0.0778
+  },
+  "Tsec-old": {
+   "AUC": 0.878,
+   "FPR": 0.0556
+  },
+  "1e4+Tsec": {
+   "AUC": 0.8704,
+   "FPR": 0.0778
+  },
+  "Tsec+Tsec": {
+   "AUC": 0.8955,
+   "FPR": 0.0889
+  }
+ },
+ "scheduler_jupiter300_eval": {
+  "n_total": 300,
+  "acc_total": 0.9966666666666667,
+  "runs": [
+   {
+    "seed": 10,
+    "n": 100,
+    "acc": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "zoom": 0.52,
+    "speedup_cost": 1.838235294117647,
+    "speedup_wall": 1.6332719072000768,
+    "time_short": 1.215562105178833,
+    "time_zoom": 42.124778509140015,
+    "time_truth": 70.78656077384949,
+    "tight": 1.0,
+    "wide": 1.0
+   },
+   {
+    "seed": 11,
+    "n": 100,
+    "acc": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "zoom": 0.51,
+    "speedup_cost": 1.8709073900841908,
+    "speedup_wall": 1.6701622673861474,
+    "time_short": 1.2556579113006592,
+    "time_zoom": 44.51120567321777,
+    "time_truth": 76.4380886554718,
+    "tight": 1.0,
+    "wide": 1.0
+   },
+   {
+    "seed": 12,
+    "n": 100,
+    "acc": 0.99,
+    "ci": [
+     0.97,
+     1.0
+    ],
+    "zoom": 0.52,
+    "speedup_cost": 1.838235294117647,
+    "speedup_wall": 1.7425112396865432,
+    "time_short": 1.2639615535736084,
+    "time_zoom": 48.46975922584534,
+    "time_truth": 86.6615674495697,
+    "tight": 0.98,
+    "wide": 1.0
+   }
+  ],
+  "speedup_cost_mean": 1.8491259927731616,
+  "speedup_wall_mean": 1.681981804757589,
+  "zoom_mean": 0.5166666666666667,
+  "truth_orbits": 10000,
+  "screen_orbits": 200,
+  "note": "fresh seeds 10-12; gates 0.01/0.70 tuned on seeds 5-9",
+  "source": "proofs/scheduler_eval.json (scripts/benchmark_scheduler.py)"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "runs": [
+  {
+   "seed": 10,
+   "n": 300,
+   "acc": 0.9933333333333333,
+   "ci": [
+    0.9833333333333333,
+    1.0
+   ],
+   "zoom": 0.5166666666666667,
+   "time_short": 2.8016726970672607,
+   "time_zoom": 96.92016005516052,
+   "time_truth": 136.00097560882568,
+   "tight_acc": 1.0,
+   "tight_zoom": 0.05333333333333334,
+   "tight_n": 150,
+   "tight_stable": 0,
+   "wide_acc": 0.9866666666666667,
+   "wide_zoom": 0.98,
+   "wide_n": 150,
+   "wide_stable": 115
+  },
+  {
+   "seed": 11,
+   "n": 300,
+   "acc": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "zoom": 0.5166666666666667,
+   "time_short": 2.750717878341675,
+   "time_zoom": 93.18734097480774,
+   "time_truth": 162.52289462089539,
+   "tight_acc": 1.0,
+   "tight_zoom": 0.03333333333333333,
+   "tight_n": 150,
+   "tight_stable": 0,
+   "wide_acc": 1.0,
+   "wide_zoom": 1.0,
+   "wide_n": 150,
+   "wide_stable": 122
+  },
+  {
+   "seed": 12,
+   "n": 300,
+   "acc": 0.99,
+   "ci": [
+    0.9766666666666667,
+    1.0
+   ],
+   "zoom": 0.5133333333333333,
+   "time_short": 3.5923454761505127,
+   "time_zoom": 106.23893618583679,
+   "time_truth": 156.98487329483032,
+   "tight_acc": 0.9933333333333333,
+   "tight_zoom": 0.05333333333333334,
+   "tight_n": 150,
+   "tight_stable": 1,
+   "wide_acc": 0.9866666666666667,
+   "wide_zoom": 0.9733333333333334,
+   "wide_n": 150,
+   "wide_stable": 127
+  }
+ ],
+ "n_total": 900,
+ "acc_total": 0.9944444444444445,
+ "acc_mean": 0.9944444444444445,
+ "acc_std": 0.004157397096415497,
+ "zoom_mean": 0.5155555555555557,
+ "by_kind": {
+  "tight": {
+   "n": 450,
+   "acc": 0.9977777777777778,
+   "zoom_frac": 0.04666666666666667,
+   "truth_stable": 1
+  },
+  "wide": {
+   "n": 450,
+   "acc": 0.9911111111111112,
+   "zoom_frac": 0.9844444444444445,
+   "truth_stable": 364
+  }
+ },
+ "note": "aggregate of benchmark_scheduler.py runs, no speedup claim"
+}

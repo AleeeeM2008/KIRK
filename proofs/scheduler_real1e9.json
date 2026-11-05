@@ -1,0 +1,23 @@
+{
+ "config": {
+  "n_res": 400,
+  "n_rand": 200,
+  "seed": 8,
+  "short_orbits": 200,
+  "lo": 0.01,
+  "hi": 0.7,
+  "model": "models/nam_spock_distilled.pt"
+ },
+ "n": 600,
+ "n_short_ok": 600,
+ "zoom_frac": 0.42833333333333334,
+ "fast_stable_frac": 0.5466666666666666,
+ "fast_unstable_frac": 0.025,
+ "acc_nonzoom": 0.4518950437317784,
+ "n_nonzoom": 343,
+ "acc_upper_bound_zoom_correct": 0.6866666666666666,
+ "acc_lower_bound_zoom_wrong": 0.25833333333333336,
+ "provenance": {
+  "created": "2026-11-03T15:54:51.414196+00:00"
+ }
+}

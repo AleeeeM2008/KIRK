@@ -1,0 +1,165 @@
+{
+ "cases": [
+  {
+   "seed": 0,
+   "features": {
+    "EMcrossnear": 0.3696507513523102,
+    "EMfracstdnear": 0.0011388069251552224,
+    "EPstdnear": 0.00011952305067097768,
+    "MMRstrengthnear": 0.00022870104294270277,
+    "EMcrossfar": 0.40879422426223755,
+    "EMfracstdfar": 0.002540237968787551,
+    "EPstdfar": 0.0003002926823683083,
+    "MMRstrengthfar": 0.0032647151965647936,
+    "MEGNO": 1.7900902032852173,
+    "MEGNOstd": 0.20671939849853516,
+    "Tsec": 10229.1171875
+   },
+   "contributions": {
+    "EMcrossnear": 1.9395444341940316,
+    "EMfracstdnear": -0.34482436358223945,
+    "EPstdnear": -0.11934471286287189,
+    "MMRstrengthnear": 0.6648635632633484,
+    "EMcrossfar": 1.3187063999499484,
+    "EMfracstdfar": 0.7040735050069186,
+    "EPstdfar": 0.2799077549794763,
+    "MMRstrengthfar": -0.5630471557019022,
+    "MEGNO": -1.8768074327660795,
+    "MEGNOstd": 0.06700422055551877,
+    "Tsec": 1.8829587523536842
+   },
+   "logit": 2.579809296826893,
+   "p": 0.929550781718138
+  },
+  {
+   "seed": 1,
+   "features": {
+    "EMcrossnear": 0.3696507513523102,
+    "EMfracstdnear": 0.0017078258097171783,
+    "EPstdnear": 0.00012755888747051358,
+    "MMRstrengthnear": 0.00033338938374072313,
+    "EMcrossfar": 0.40879422426223755,
+    "EMfracstdfar": 0.0018062603194266558,
+    "EPstdfar": 0.0003987831005360931,
+    "MMRstrengthfar": 0.004036781378090382,
+    "MEGNO": 1.7698040008544922,
+    "MEGNOstd": 0.05030684545636177,
+    "Tsec": 10229.1171875
+   },
+   "contributions": {
+    "EMcrossnear": 1.9395444341940316,
+    "EMfracstdnear": -0.3778031683665654,
+    "EPstdnear": -0.12159061406607077,
+    "MMRstrengthnear": 0.6650450451614938,
+    "EMcrossfar": 1.3187063999499484,
+    "EMfracstdfar": 0.7169671576116747,
+    "EPstdfar": 0.2821081602808405,
+    "MMRstrengthfar": -0.5648046886154825,
+    "MEGNO": -1.8667382204791303,
+    "MEGNOstd": 0.09683721747885282,
+    "Tsec": 1.8829587523536842
+   },
+   "logit": 2.598004806940337,
+   "p": 0.9307330619869634
+  },
+  {
+   "seed": 2,
+   "features": {
+    "EMcrossnear": 0.3696507513523102,
+    "EMfracstdnear": 0.0013010589173063636,
+    "EPstdnear": 0.00012228208652231842,
+    "MMRstrengthnear": 0.00025676103541627526,
+    "EMcrossfar": 0.40879422426223755,
+    "EMfracstdfar": 0.002202706877142191,
+    "EPstdfar": 0.00034834747202694416,
+    "MMRstrengthfar": 0.002874674741178751,
+    "MEGNO": 1.9616602659225464,
+    "MEGNOstd": 0.02003331482410431,
+    "Tsec": 10229.1171875
+   },
+   "contributions": {
+    "EMcrossnear": 1.9395444341940316,
+    "EMfracstdnear": -0.35411900528983337,
+    "EPstdnear": -0.12011604513743497,
+    "MMRstrengthnear": 0.6649122746650119,
+    "EMcrossfar": 1.3187063999499484,
+    "EMfracstdfar": 0.7100058969465969,
+    "EPstdfar": 0.28098424046829973,
+    "MMRstrengthfar": -0.5621584918910287,
+    "MEGNO": -1.961517472457551,
+    "MEGNOstd": 0.10263300768821058,
+    "Tsec": 1.8829587523536842
+   },
+   "logit": 2.528608322926995,
+   "p": 0.9261231926576713
+  }
+ ],
+ "kirk_p": [
+  0.929550781718138,
+  0.9307330619869634,
+  0.9261231926576713
+ ],
+ "spock_p": [
+  0.6253870725631714,
+  0.7337048053741455,
+  0.7746775150299072
+ ],
+ "contribution_ranges": {
+  "EMcrossnear": {
+   "min": 1.9395444341940316,
+   "max": 1.9395444341940316,
+   "range": 0.0
+  },
+  "EMfracstdnear": {
+   "min": -0.3778031683665654,
+   "max": -0.34482436358223945,
+   "range": 0.032978804784325966
+  },
+  "EPstdnear": {
+   "min": -0.12159061406607077,
+   "max": -0.11934471286287189,
+   "range": 0.002245901203198883
+  },
+  "MMRstrengthnear": {
+   "min": 0.6648635632633484,
+   "max": 0.6650450451614938,
+   "range": 0.00018148189814537474
+  },
+  "EMcrossfar": {
+   "min": 1.3187063999499484,
+   "max": 1.3187063999499484,
+   "range": 0.0
+  },
+  "EMfracstdfar": {
+   "min": 0.7040735050069186,
+   "max": 0.7169671576116747,
+   "range": 0.012893652604756167
+  },
+  "EPstdfar": {
+   "min": 0.2799077549794763,
+   "max": 0.2821081602808405,
+   "range": 0.0022004053013642277
+  },
+  "MMRstrengthfar": {
+   "min": -0.5648046886154825,
+   "max": -0.5621584918910287,
+   "range": 0.0026461967244537643
+  },
+  "MEGNO": {
+   "min": -1.961517472457551,
+   "max": -1.8667382204791303,
+   "range": 0.09477925197842074
+  },
+  "MEGNOstd": {
+   "min": 0.06700422055551877,
+   "max": 0.10263300768821058,
+   "range": 0.03562878713269181
+  },
+  "Tsec": {
+   "min": 1.8829587523536842,
+   "max": 1.8829587523536842,
+   "range": 0.0
+  }
+ },
+ "note": "Same inner trio, three phase draws. The largest constant terms are phase-independent; MEGNO's shape is nearly flat over the observed range and its movement is below 0.1 logit. KIRK moves 0.926-0.931, SPOCK 0.63-0.77. SPOCK's tree splits react to those features, so it moves more."
+}

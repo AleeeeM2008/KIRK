@@ -1,0 +1,143 @@
+{
+ "target_feature": "EMfracstdnear",
+ "Ys": 3.0608303646905517,
+ "Ym": -1.4047189950942993,
+ "logit_gap": 2.3522303481230535,
+ "target_contribution_gap": 1.7513547753558485,
+ "target_share_of_gap": 0.7445507098202905,
+ "cases": [
+  {
+   "label": "inner trio [1,2,3]",
+   "trio": [
+    1,
+    2,
+    3
+   ],
+   "p": 0.929550781718138,
+   "logit": 2.579809296826893,
+   "normalized_logit": 1.3017801763489842,
+   "features": {
+    "EMcrossnear": 0.3696507513523102,
+    "EMfracstdnear": 0.0011388069251552224,
+    "EPstdnear": 0.00011952305067097768,
+    "MMRstrengthnear": 0.00022870104294270277,
+    "EMcrossfar": 0.40879422426223755,
+    "EMfracstdfar": 0.002540237968787551,
+    "EPstdfar": 0.0003002926823683083,
+    "MMRstrengthfar": 0.0032647151965647936,
+    "MEGNO": 1.7900902032852173,
+    "MEGNOstd": 0.20671939849853516,
+    "Tsec": 10229.1171875
+   },
+   "contributions": {
+    "EMcrossnear": 1.9395444341940316,
+    "EMfracstdnear": -0.34482436358223945,
+    "EPstdnear": -0.11934471286287189,
+    "MMRstrengthnear": 0.6648635632633484,
+    "EMcrossfar": 1.3187063999499484,
+    "EMfracstdfar": 0.7040735050069186,
+    "EPstdfar": 0.2799077549794763,
+    "MMRstrengthfar": -0.5630471557019022,
+    "MEGNO": -1.8768074327660795,
+    "MEGNOstd": 0.06700422055551877,
+    "Tsec": 1.8829587523536842
+   },
+   "contributions_normalized": {
+    "EMcrossnear": 0.6336660981178284,
+    "EMfracstdnear": -0.11265712976455688,
+    "EPstdnear": -0.03899095952510834,
+    "MMRstrengthnear": 0.21721673011779788,
+    "EMcrossfar": 0.43083289265632624,
+    "EMfracstdfar": 0.23002696037292483,
+    "EPstdfar": 0.09144830703735352,
+    "MMRstrengthfar": -0.1839524209499359,
+    "MEGNO": -0.6131693720817566,
+    "MEGNOstd": 0.02189086377620697,
+    "Tsec": 0.6151790618896484
+   }
+  },
+  {
+   "label": "outer trio [3,4,5]",
+   "trio": [
+    3,
+    4,
+    5
+   ],
+   "p": 0.5566504438174177,
+   "logit": 0.2275789487038391,
+   "normalized_logit": 0.5332859875634313,
+   "features": {
+    "EMcrossnear": 0.31399300694465637,
+    "EMfracstdnear": 0.02053074724972248,
+    "EPstdnear": 0.0022315855603665113,
+    "MMRstrengthnear": 0.15022246539592743,
+    "EMcrossfar": 0.31583213806152344,
+    "EMfracstdfar": 0.013689504936337471,
+    "EPstdfar": 0.0013717006659135222,
+    "MMRstrengthfar": 0.10288435220718384,
+    "MEGNO": 1.8337570428848267,
+    "MEGNOstd": 0.08704280853271484,
+    "Tsec": 12480.9609375
+   },
+   "contributions": {
+    "EMcrossnear": 1.9338636266097615,
+    "EMfracstdnear": -2.096179138938088,
+    "EPstdnear": -0.604760626319361,
+    "MMRstrengthnear": 0.9245314571920538,
+    "EMcrossfar": 1.1014969691806238,
+    "EMfracstdfar": 0.5090309090794545,
+    "EPstdfar": 0.3024239618594858,
+    "MMRstrengthfar": -0.7703451845304912,
+    "MEGNO": -1.898446059047392,
+    "MEGNOstd": 0.08981333438448275,
+    "Tsec": 2.109375367796249
+   },
+   "contributions_normalized": {
+    "EMcrossnear": 0.6318101286888123,
+    "EMfracstdnear": -0.6848400235176086,
+    "EPstdnear": -0.19758057594299316,
+    "MMRstrengthnear": 0.30205249786376953,
+    "EMcrossfar": 0.3598686754703522,
+    "EMfracstdfar": 0.1663048416376114,
+    "EPstdfar": 0.0988045483827591,
+    "MMRstrengthfar": -0.2516784965991974,
+    "MEGNO": -0.6202389001846313,
+    "MEGNOstd": 0.02934280037879944,
+    "Tsec": 0.6891513466835022
+   }
+  }
+ ],
+ "spock_comparison": {
+  "0": {
+   "inner": {
+    "kirk": 0.92955082654953,
+    "spock": 0.6253870725631714
+   },
+   "outer": {
+    "kirk": 0.5566504001617432,
+    "spock": 0.5748822093009949
+   }
+  },
+  "1": {
+   "inner": {
+    "kirk": 0.9307330846786499,
+    "spock": 0.7337048053741455
+   },
+   "outer": {
+    "kirk": 0.547507107257843,
+    "spock": 0.6641433835029602
+   }
+  },
+  "2": {
+   "inner": {
+    "kirk": 0.9261232018470764,
+    "spock": 0.7746775150299072
+   },
+   "outer": {
+    "kirk": 0.27090996503829956,
+    "spock": 0.20121820271015167
+   }
+  }
+ },
+ "note": "TRAPPIST-1 seed 0. Logit units are the model's output before the sigmoid; contributions are already multiplied by Ys. The target feature accounts for 74.5% of the 2.35 logit gap; other features make up the rest."
+}

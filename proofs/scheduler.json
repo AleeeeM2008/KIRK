@@ -1,0 +1,1100 @@
+{
+ "model": "models/nam_spock_distilled.pt",
+ "config": {
+  "n": 100,
+  "orbits": 10000,
+  "short_orbits": 200,
+  "nout": 60,
+  "seed": 10,
+  "lo": 0.01,
+  "hi": 0.7
+ },
+ "result": {
+  "acc": 1.0,
+  "acc_ci95": [
+   1.0,
+   1.0
+  ],
+  "n": 100,
+  "zoom_frac": 0.52,
+  "cost_model": 0.544,
+  "time_short_s": 1.215562105178833,
+  "time_zoom_s": 42.124778509140015,
+  "time_truth_all_s": 70.78656077384949,
+  "speedup_cost": 1.838235294117647,
+  "speedup_wall": 1.6332719072000768,
+  "by_kind": {
+   "tight": {
+    "n": 50,
+    "acc": 1.0,
+    "truth_stable": 0,
+    "zoom_frac": 0.04
+   },
+   "wide": {
+    "n": 50,
+    "acc": 1.0,
+    "truth_stable": 45,
+    "zoom_frac": 1.0
+   }
+  },
+  "gates": {
+   "lo": 0.01,
+   "hi": 0.7
+  }
+ },
+ "rows": [
+  {
+   "name": "tight-0",
+   "kind": "tight",
+   "P": 0.0005361048970371485,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-1",
+   "kind": "tight",
+   "P": 0.00267152301967144,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-2",
+   "kind": "tight",
+   "P": 0.00045577247510664165,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-3",
+   "kind": "tight",
+   "P": 0.001494261552579701,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-4",
+   "kind": "tight",
+   "P": 0.0006355097284540534,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-5",
+   "kind": "tight",
+   "P": 0.0016928061377257109,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-6",
+   "kind": "tight",
+   "P": 0.0007065988029353321,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-7",
+   "kind": "tight",
+   "P": 0.06648145616054535,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-8",
+   "kind": "tight",
+   "P": 0.1893835961818695,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-9",
+   "kind": "tight",
+   "P": 0.0004844469076488167,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-10",
+   "kind": "tight",
+   "P": 0.0009424003656022251,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-11",
+   "kind": "tight",
+   "P": 0.009369892999529839,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-12",
+   "kind": "tight",
+   "P": 0.0003095022984780371,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-13",
+   "kind": "tight",
+   "P": 0.0002967066247947514,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-14",
+   "kind": "tight",
+   "P": 0.0047826883383095264,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-15",
+   "kind": "tight",
+   "P": 0.0013454053550958633,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-16",
+   "kind": "tight",
+   "P": 0.00036832669866271317,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-17",
+   "kind": "tight",
+   "P": 0.001084945979528129,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-18",
+   "kind": "tight",
+   "P": 0.00020701494941022247,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-19",
+   "kind": "tight",
+   "P": 0.0003301791730336845,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-20",
+   "kind": "tight",
+   "P": 0.0003140730259474367,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-21",
+   "kind": "tight",
+   "P": 0.00032391696004197,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-22",
+   "kind": "tight",
+   "P": 0.00032733051921240985,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-23",
+   "kind": "tight",
+   "P": 0.0001704864262137562,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-24",
+   "kind": "tight",
+   "P": 0.0013052932918071747,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-25",
+   "kind": "tight",
+   "P": 0.0010930472053587437,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-26",
+   "kind": "tight",
+   "P": 0.00032582730636931956,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-27",
+   "kind": "tight",
+   "P": 0.005388548132032156,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-28",
+   "kind": "tight",
+   "P": 0.0004953513271175325,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-29",
+   "kind": "tight",
+   "P": 0.0008890946628525853,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-30",
+   "kind": "tight",
+   "P": 0.0003935671702492982,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-31",
+   "kind": "tight",
+   "P": 0.0007550756563432515,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-32",
+   "kind": "tight",
+   "P": 0.0008139143465086818,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-33",
+   "kind": "tight",
+   "P": 0.0003458140417933464,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-34",
+   "kind": "tight",
+   "P": 0.0002752442378550768,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-35",
+   "kind": "tight",
+   "P": 0.0003615922760218382,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-36",
+   "kind": "tight",
+   "P": 0.00036692345747724175,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-37",
+   "kind": "tight",
+   "P": 0.0008512682979926467,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-38",
+   "kind": "tight",
+   "P": 0.00024533158284612,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-39",
+   "kind": "tight",
+   "P": 0.00022885031648911536,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-40",
+   "kind": "tight",
+   "P": 0.004389490932226181,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-41",
+   "kind": "tight",
+   "P": 0.0002677282609511167,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-42",
+   "kind": "tight",
+   "P": 0.0009249930153600872,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-43",
+   "kind": "tight",
+   "P": 0.0020605961326509714,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-44",
+   "kind": "tight",
+   "P": 0.00014795312017668039,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-45",
+   "kind": "tight",
+   "P": 0.0002527005854062736,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-46",
+   "kind": "tight",
+   "P": 0.0010164187988266349,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-47",
+   "kind": "tight",
+   "P": 0.0002688432577997446,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-48",
+   "kind": "tight",
+   "P": 0.0003483603650238365,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "tight-49",
+   "kind": "tight",
+   "P": 0.0004428586398717016,
+   "action": "fast-unstable",
+   "short_ok": true,
+   "truth": null,
+   "cost": 0.05,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-0",
+   "kind": "wide",
+   "P": 0.09681370854377747,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-1",
+   "kind": "wide",
+   "P": 0.17738087475299835,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-2",
+   "kind": "wide",
+   "P": 0.032670143991708755,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-3",
+   "kind": "wide",
+   "P": 0.28187647461891174,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-4",
+   "kind": "wide",
+   "P": 0.051175106316804886,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-5",
+   "kind": "wide",
+   "P": 0.1509632021188736,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-6",
+   "kind": "wide",
+   "P": 0.1724882870912552,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-7",
+   "kind": "wide",
+   "P": 0.14053981006145477,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-8",
+   "kind": "wide",
+   "P": 0.08480791747570038,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-9",
+   "kind": "wide",
+   "P": 0.1198016032576561,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-10",
+   "kind": "wide",
+   "P": 0.04540142044425011,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-11",
+   "kind": "wide",
+   "P": 0.10262241959571838,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-12",
+   "kind": "wide",
+   "P": 0.13057224452495575,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-13",
+   "kind": "wide",
+   "P": 0.050489362329244614,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-14",
+   "kind": "wide",
+   "P": 0.2021803855895996,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-15",
+   "kind": "wide",
+   "P": 0.03673243150115013,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-16",
+   "kind": "wide",
+   "P": 0.05608120560646057,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-17",
+   "kind": "wide",
+   "P": 0.06307344138622284,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-18",
+   "kind": "wide",
+   "P": 0.2113964855670929,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-19",
+   "kind": "wide",
+   "P": 0.056455809623003006,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-20",
+   "kind": "wide",
+   "P": 0.2710675001144409,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-21",
+   "kind": "wide",
+   "P": 0.3342309892177582,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-22",
+   "kind": "wide",
+   "P": 0.043558958917856216,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-23",
+   "kind": "wide",
+   "P": 0.20963063836097717,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-24",
+   "kind": "wide",
+   "P": 0.3060457706451416,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-25",
+   "kind": "wide",
+   "P": 0.10032210499048233,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-26",
+   "kind": "wide",
+   "P": 0.04037071391940117,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-27",
+   "kind": "wide",
+   "P": 0.16573193669319153,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-28",
+   "kind": "wide",
+   "P": 0.15736821293830872,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-29",
+   "kind": "wide",
+   "P": 0.24779194593429565,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-30",
+   "kind": "wide",
+   "P": 0.018396371975541115,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-31",
+   "kind": "wide",
+   "P": 0.1532239019870758,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-32",
+   "kind": "wide",
+   "P": 0.0532541498541832,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-33",
+   "kind": "wide",
+   "P": 0.1299874186515808,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-34",
+   "kind": "wide",
+   "P": 0.3411732316017151,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-35",
+   "kind": "wide",
+   "P": 0.21948079764842987,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-36",
+   "kind": "wide",
+   "P": 0.05272562429308891,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-37",
+   "kind": "wide",
+   "P": 0.14136292040348053,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-38",
+   "kind": "wide",
+   "P": 0.028325097635388374,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-39",
+   "kind": "wide",
+   "P": 0.15986156463623047,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-40",
+   "kind": "wide",
+   "P": 0.29487016797065735,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-41",
+   "kind": "wide",
+   "P": 0.10094637423753738,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-42",
+   "kind": "wide",
+   "P": 0.029443329200148582,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-43",
+   "kind": "wide",
+   "P": 0.012788976542651653,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": false,
+   "pred": false
+  },
+  {
+   "name": "wide-44",
+   "kind": "wide",
+   "P": 0.2384796142578125,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-45",
+   "kind": "wide",
+   "P": 0.3515934348106384,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-46",
+   "kind": "wide",
+   "P": 0.10663075000047684,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-47",
+   "kind": "wide",
+   "P": 0.17617879807949066,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-48",
+   "kind": "wide",
+   "P": 0.5498334169387817,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  },
+  {
+   "name": "wide-49",
+   "kind": "wide",
+   "P": 0.23255576193332672,
+   "action": "zoom",
+   "short_ok": true,
+   "cost": 1.0,
+   "truth_all": true,
+   "pred": true
+  }
+ ],
+ "provenance": {
+  "created": "2026-11-01T22:59:45.038076+00:00",
+  "git_commit": "a932e0313b6f64ada8defa376769b6f68de98cfe",
+  "torch": "2.15.0+cu132"
+ }
+}

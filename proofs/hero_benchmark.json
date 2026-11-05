@@ -1,0 +1,8 @@
+{
+ "n_holdout": 273,
+ "n_stable": 95,
+ "auc_kirk": 0.9334121821407452,
+ "auc_teacher": 0.9588409225310467,
+ "feature_shown": "EMfracstdnear",
+ "note": "Real SPOCK archives and 1e9 labels, Sec. 2 exclusions, split seed 0, holdout 15%."
+}

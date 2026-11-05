@@ -1,0 +1,47 @@
+{
+ "fig3_resonant_holdout": {
+  "KIRK": {
+   "auc": 0.9192316593381161,
+   "n": 207,
+   "stable": 58
+  },
+  "SPOCK teacher": {
+   "auc": 0.9641286739180746,
+   "n": 207,
+   "stable": 58
+  },
+  "MEGNO raw": {
+   "auc": 0.7721592224022217,
+   "n": 207,
+   "stable": 58
+  },
+  "EMcross proxy": {
+   "auc": 0.6852580421198796,
+   "n": 207,
+   "stable": 58
+  }
+ },
+ "fig4_random_holdout": {
+  "KIRK": {
+   "auc": 0.9655172413793104,
+   "n": 66,
+   "stable": 37
+  },
+  "SPOCK teacher": {
+   "auc": 0.9515377446411929,
+   "n": 66,
+   "stable": 37
+  },
+  "MEGNO raw": {
+   "auc": 0.6784715750232991,
+   "n": 66,
+   "stable": 37
+  },
+  "EMcross proxy": {
+   "auc": 0.7054986020503262,
+   "n": 66,
+   "stable": 37
+  }
+ },
+ "note": "KIRK = shipped distilled model. MEGNO and EMcross are raw single-feature baselines, not trained XGBoost baselines. Random holdout is small."
+}
