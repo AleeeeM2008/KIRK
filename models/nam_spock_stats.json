@@ -1,0 +1,97 @@
+{
+ "artifact": "models/nam_spock_distilled.pt",
+ "metrics": {
+  "n_train": 1545,
+  "n_holdout": 273,
+  "constant_features": 0,
+  "agree_train": 0.8957928802588997,
+  "rmse_train": 1.0997824668884277,
+  "auc_teacher_train": 0.9675621345029239,
+  "agree_holdout": 0.9157509157509157,
+  "rmse_holdout": 1.0929505825042725,
+  "auc_teacher_holdout": 0.9750468603561387,
+  "auc_truth_holdout": 0.9334121821407452,
+  "acc_truth_holdout": 0.8571428571428571,
+  "n_systems": 1818,
+  "acc_truth_holdout_ci95": [
+   0.8131868131868132,
+   0.8974358974358975
+  ],
+  "auc_truth_holdout_ci95": [
+   0.9035152168234064,
+   0.9589392560615141
+  ],
+  "auc_teacher_holdout_ci95": [
+   0.9586275098902638,
+   0.9879921021459404
+  ],
+  "agree_holdout_ci95": [
+   0.8827838827838828,
+   0.945054945054945
+  ],
+  "seed_sweep": [
+   {
+    "seed": 0,
+    "agree_holdout": 0.9157509157509157,
+    "auc_teacher_holdout": 0.9750468603561387,
+    "auc_truth_holdout": 0.9334121821407452,
+    "acc_truth_holdout": 0.8571428571428571
+   },
+   {
+    "seed": 1,
+    "agree_holdout": 0.8974358974358975,
+    "auc_teacher_holdout": 0.9728242174062608,
+    "auc_truth_holdout": 0.9046683046683047,
+    "acc_truth_holdout": 0.8241758241758241
+   },
+   {
+    "seed": 2,
+    "agree_holdout": 0.8937728937728938,
+    "auc_teacher_holdout": 0.9808475509080903,
+    "auc_truth_holdout": 0.9177411927239235,
+    "acc_truth_holdout": 0.8351648351648352
+   },
+   {
+    "seed": 3,
+    "agree_holdout": 0.8608058608058609,
+    "auc_teacher_holdout": 0.9662763202342078,
+    "auc_truth_holdout": 0.9057168681504915,
+    "acc_truth_holdout": 0.8058608058608059
+   },
+   {
+    "seed": 4,
+    "agree_holdout": 0.8974358974358975,
+    "auc_teacher_holdout": 0.9605143377332727,
+    "auc_truth_holdout": 0.9191338674097295,
+    "acc_truth_holdout": 0.8571428571428571
+   }
+  ],
+  "agree_holdout_seed_mean": 0.8930402930402931,
+  "agree_holdout_seed_std": 0.01785502946073835,
+  "auc_teacher_holdout_seed_mean": 0.971101857327594,
+  "auc_teacher_holdout_seed_std": 0.0070553454330815404,
+  "auc_truth_holdout_seed_mean": 0.9161344830186389,
+  "auc_truth_holdout_seed_std": 0.010489010012954741,
+  "acc_truth_holdout_seed_mean": 0.8358974358974358,
+  "acc_truth_holdout_seed_std": 0.019712269666042045
+ },
+ "provenance": {
+  "created": "2026-11-01T21:09:13.531404+00:00",
+  "git_commit": "17425bfc77153cbd3b4f74d3dba1a7de1a3d29b2",
+  "seed": 0,
+  "epochs": 800,
+  "holdout": 0.15,
+  "data": {
+   "resonant": "resonant_real.npz",
+   "random": "random_real.npz",
+   "n_resonant": 1500,
+   "n_random": 700,
+   "sha256_resonant": "d57c34c8ebbe13b700a2178628e2e8e8da80745bf0af6e5187e0090e3cb4261a",
+   "sha256_random": "363a90e6fa036b610bc29cdc52a3c388ad3f8aca3b2a988c7830387a7b78f7b1"
+  },
+  "teacher_json": "featureclassifier.json",
+  "teacher_sha256": "ac0a7432e26377f5743ac88478d8cc65dbcdb18c57c9c166339c47478225c758",
+  "torch": "2.15.0+cu132",
+  "numpy": "2.5.4"
+ }
+}

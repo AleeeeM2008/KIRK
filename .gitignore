@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# fetched upstream assets and derived feature caches
+data/*.zip
+data/*_real.npz
+data/features_*.npz
+data/spock_raw/
+models/featureclassifier.json
+*.part
+
+# paper build intermediates; keep the PDF, BBL and source
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.blg
+paper/*.synctex.gz
