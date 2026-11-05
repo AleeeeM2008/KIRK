@@ -1,0 +1,10 @@
+Author: Patricio Alejandro Mery Caro
+Email: pmery641@gmail.com
+ORCID: 0009-0002-3888-879X
+
+arXiv categories for KIRK submission:
+Primary: astro-ph.EP (Earth and Planetary Astrophysics)
+Secondary: cs.LG (Machine Learning)
+Cross-list: stat.ML (Machine Learning, Statistics)
+
+Suggested arXiv comment: "5 pages, 4 figures; glass-box distillation of SPOCK + triage scheduler; 900-system + 200-system + 1e9-label evaluation; no speedup claim"

@@ -1,0 +1,44 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+% type= article
+\bibitem[{P.~M. Cincotta {et~al.}(2003)Cincotta, Giordano, \& Sim{\'o}}]{Cincotta2003}
+Cincotta, P.~M., Giordano, C.~M., \& Sim{\'o}, C. 2003, \bibinfo{title}{Phase space structure of multi-dimensional systems by means of the mean exponential growth factor of nearby orbits,} Physica D: Nonlinear Phenomena, 182, 151, \dodoi{10.1016/S0167-2789(03)00113-1}
+
+% type= article
+\bibitem[{M. Cranmer {et~al.}(2021)Cranmer, Tamayo, Rein, Battaglia, Hadden, Armitage, Ho, \& Spergel}]{Cranmer2021}
+Cranmer, M., Tamayo, D., Rein, H., {et~al.} 2021, \bibinfo{title}{A {Bayesian} neural network predicts the dissolution of compact planetary systems,} Proceedings of the National Academy of Sciences, 118, e2026053118, \dodoi{10.1073/pnas.2026053118}
+
+% type= article
+\bibitem[{S. Hadden \& D. Tamayo(2022)Hadden \& Tamayo}]{Hadden2022}
+Hadden, S., \& Tamayo, D. 2022, \bibinfo{title}{{celmech}: A {Python} Package for Celestial Mechanics,} The Astronomical Journal, 164, 179, \dodoi{10.3847/1538-3881/ac8d01}
+
+% type= article
+\bibitem[{N. Hussain \& D. Tamayo(2020)Hussain \& Tamayo}]{Hussain2020}
+Hussain, N., \& Tamayo, D. 2020, \bibinfo{title}{Fundamental limits from chaos on instability time predictions in compact planetary systems,} Monthly Notices of the Royal Astronomical Society, 491, 5258, \dodoi{10.1093/mnras/stz3402}
+
+% type= article
+\bibitem[{J. Laskar \& A.~C. Petit(2017)Laskar \& Petit}]{Laskar2017}
+Laskar, J., \& Petit, A.~C. 2017, \bibinfo{title}{{AMD}-stability and the classification of planetary systems,} Astronomy \& Astrophysics, 605, A72, \dodoi{10.1051/0004-6361/201630022}
+
+% type= article
+\bibitem[{H. Rein \& D. Tamayo(2017)Rein \& Tamayo}]{Rein2017}
+Rein, H., \& Tamayo, D. 2017, \bibinfo{title}{A new paradigm for reproducing and analysing {N}-body simulations of planetary systems,} Monthly Notices of the Royal Astronomical Society, 467, 2377, \dodoi{10.1093/mnras/stx232}
+
+% type= article
+\bibitem[{D. Tamayo {et~al.}(2020)Tamayo, Cranmer, Hadden, Rein, Battaglia, Obertas, Armitage, Ho, Spergel, Gilbertson, Hussain, Silburt, Jontof-Hutter, \& Menou}]{Tamayo2020}
+Tamayo, D., Cranmer, M., Hadden, S., {et~al.} 2020, \bibinfo{title}{Predicting the long-term stability of compact multiplanet systems,} Proceedings of the National Academy of Sciences, 117, 18194, \dodoi{10.1073/pnas.2001258117}
+
+% type= article
+\bibitem[{E. Thadhani {et~al.}(2025)Thadhani, Ba, Rein, \& Tamayo}]{Thadhani2025}
+Thadhani, E., Ba, Y., Rein, H., \& Tamayo, D. 2025, \bibinfo{title}{{SPOCK} 2.0: Updates to the {FeatureClassifier} in the Stability of Planetary Orbital Configurations Klassifier,} Research Notes of the AAS, 9, 27, \dodoi{10.3847/2515-5172/adb150}
+
+% type= article
+\bibitem[{Q. Yang \& D. Tamayo(2024)Yang \& Tamayo}]{Yang2024}
+Yang, Q., \& Tamayo, D. 2024, \bibinfo{title}{Secular Dynamics of Compact Three-planet Systems,} The Astrophysical Journal, 968, 20, \dodoi{10.3847/1538-4357/ad3af1}
+
+\end{thebibliography}
